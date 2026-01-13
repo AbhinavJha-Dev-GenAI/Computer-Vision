@@ -1,4 +1,4 @@
-# Filters & Kernels ðŸ§²
+# Filters & Kernels 🧮
 
 Filters are used to transform images by performing a convolution between an input image and a small matrix called a **Kernel**.
 
@@ -20,7 +20,7 @@ Finding areas with sharp changes in intensity.
 
 ---
 
-## ðŸ’» Practical Code: Edge Detection
+## 💻 Practical Code: Edge Detection
 
 ```python
 import cv2

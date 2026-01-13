@@ -1,4 +1,4 @@
-# 05. Instance Segmentation ðŸŒ¹
+# 05. Instance Segmentation 🎭
 
 Instance Segmentation is the task of identifying and delineating each distinct object (instance) in an image. It combines **Object Detection** (finding instances) and **Semantic Segmentation** (pixel-level mask for each instance).
 
@@ -23,7 +23,7 @@ Combines Semantic Segmentation (stuff like grass, sky) and Instance Segmentation
 
 ---
 
-## âŒ¨ï¸  Detectron2 Basic Usage
+## ⌨️ Basic Detectron2 Usage
 
 ```python
 import detectron2

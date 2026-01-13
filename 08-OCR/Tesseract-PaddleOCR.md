@@ -1,4 +1,4 @@
-# Tesseract vs PaddleOCR âœ ï¸ 
+# Tesseract vs PaddleOCR ✍️
 
 Choosing the right OCR engine depends on your specific use case (document scanning vs. scene text).
 
@@ -14,7 +14,7 @@ Choosing the right OCR engine depends on your specific use case (document scanni
 
 ---
 
-## ðŸ’» Practical Code: PaddleOCR
+## 💻 Practical Code: PaddleOCR
 
 ```python
 from paddleocr import PaddleOCR, draw_ocr

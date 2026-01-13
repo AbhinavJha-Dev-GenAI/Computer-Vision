@@ -1,4 +1,4 @@
-# Color Spaces ðŸŒˆ
+# Color Spaces 🌈
 
 Color spaces are mathematical models used to represent colors as tuples of numbers. Depending on the task (segmentation, tracking, or lighting adjustment), different color spaces are preferred.
 
@@ -25,7 +25,7 @@ Designed to be perceptually uniform.
 
 ---
 
-## ðŸ’» Practical Code: BGR to HSV
+## 💻 Practical Code: BGR to HSV
 
 ```python
 import cv2

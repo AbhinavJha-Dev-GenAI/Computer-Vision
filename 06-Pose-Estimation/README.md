@@ -1,8 +1,8 @@
-# 06. Pose Estimation ðŸ“‹
+# 06. Pose Estimation 📋
 
 Human Pose Estimation (HPE) is the task of identifying the location of specific keypoints (joints) like the nose, eyes, shoulders, elbows, and knees on a human body.
 
-## ðŸ“š Core Concepts
+## 📚 Core Concepts
 
 ### 1. Keypoints & Skeleton
 A human body is represented as a set of keypoints (usually 17-33) connected by "limbs" to form a skeleton.
@@ -25,13 +25,13 @@ A human body is represented as a set of keypoints (usually 17-33) connected by "
 
 ---
 
-## ðŸ“‚ Detailed Guides
+## 📂 Detailed Guides
 
 1. [**MediaPipe**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/06-Pose-Estimation/MediaPipe.md): Google's framework for real-time cross-platform pose tracking.
 
 ---
 
-## âŒ¨ï¸  Basic YOLOv8 Pose Inference
+## ⌨️ Basic YOLOv8 Pose Inference
 
 ```python
 from ultralytics import YOLO

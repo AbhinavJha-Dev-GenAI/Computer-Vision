@@ -1,8 +1,8 @@
-# 04. Semantic Segmentation ðŸ§©
+# 04. Semantic Segmentation 🧩
 
 Semantic Segmentation is the process of classifying every single pixel in an image into a category. Unlike Object Detection, it provides fine-grained boundaries but does not differentiate between multiple instances of the same object.
 
-## ðŸ“š Core Concepts
+## 📚 Core Concepts
 
 ### 1. FCN (Fully Convolutional Networks)
 Replacing the fully connected layers of a standard CNN with convolutions, allowing the output to be a spatial map (heatmap) rather than a single vector.
@@ -18,13 +18,13 @@ Uses **Atrous (Dilated) Convolutions** to capture multi-scale context without in
 
 ---
 
-## ðŸ“‚ Detailed Guides
+## 📂 Detailed Guides
 
 1. [**Loss Functions**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/04-Semantic-Segmentation/Loss-Functions.md): Why standard Cross-Entropy isn't enough for segmentation.
 
 ---
 
-## âŒ¨ï¸  Basic PyTorch Inference (DeepLabV3)
+## ⌨️ Basic PyTorch Inference (DeepLabV3)
 
 ```python
 import torch

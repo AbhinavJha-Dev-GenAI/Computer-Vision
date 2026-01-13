@@ -1,4 +1,4 @@
-# MediaPipe Pose ðŸš€
+# MediaPipe Pose 🚀
 
 MediaPipe is an open-source framework by Google for building high-performance, cross-platform Computer Vision pipelines. Its pose estimation component (BlazePose) is famous for its speed and mobile-friendliness.
 
@@ -18,7 +18,7 @@ The 33 landmarks include:
 
 ---
 
-## ðŸ’» Python Implementation: Real-time Pose
+## 💻 Python Implementation: Real-time Pose
 
 ```python
 import cv2

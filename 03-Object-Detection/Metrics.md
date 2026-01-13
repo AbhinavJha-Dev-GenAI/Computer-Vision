@@ -1,4 +1,4 @@
-# Metrics & Post-Processing ðŸ“ˆ
+# Metrics & Post-Processing 📈
 
 Evaluation in Object Detection is more complex than simple Accuracy because we must evaluate both **localization** and **classification**.
 
@@ -20,7 +20,7 @@ A post-processing step to remove redundant or overlapping boxes.
 
 ---
 
-## ðŸ’» Python Visualization: IoU Logic
+## 💻 Python Visualization: IoU Logic
 
 ```python
 def calculate_iou(boxA, boxB):

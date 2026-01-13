@@ -1,4 +1,4 @@
-# Segment Anything Model (SAM) âœ¨
+# Segment Anything Model (SAM) ✨
 
 SAM, released by Meta AI, is a foundation model for image segmentation. It can "segment anything" with zero-shot generalization through various prompts.
 
@@ -20,7 +20,7 @@ SAM was trained on the **SA-1B dataset**, containing over **1.1 Billion masks** 
 
 ---
 
-## ðŸ’» Practical Code: Using SAM with Points
+## 💻 Practical Code: Using SAM with Points
 
 ```python
 from segment_anything import SamPredictor, sam_model_registry

@@ -1,8 +1,8 @@
-# 07. Object Tracking ðŸ¤³
+# 07. Object Tracking 🤝
 
 Object tracking is the process of estimating the trajectory of an object over time by maintaining a consistent ID for that object across consecutive frames of a video.
 
-## ðŸ“š Core Concepts
+## 📚 Core Concepts
 
 ### 1. Detection vs. Tracking
 - **Detection**: Analyzes one frame at a time to find objects.
@@ -20,7 +20,7 @@ Object tracking is the process of estimating the trajectory of an object over ti
 
 ---
 
-## âŒ¨ï¸  Basic BoT-SORT Usage (Ultralytics)
+## ⌨️ Basic BoT-SORT Usage (Ultralytics)
 
 ```python
 from ultralytics import YOLO

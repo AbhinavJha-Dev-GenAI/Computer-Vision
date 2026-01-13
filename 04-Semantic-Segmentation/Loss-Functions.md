@@ -1,4 +1,4 @@
-# Loss Functions for Segmentation ðŸ‰
+# Loss Functions for Segmentation 📉
 
 In semantic segmentation, we often deal with **class imbalance** (e.g., a background making up 90% of the image). Standard Cross-Entropy fails here.
 
@@ -17,7 +17,7 @@ In semantic segmentation, we often deal with **class imbalance** (e.g., a backgr
 
 ---
 
-## ðŸ’» PyTorch Implementation: Dice Loss
+## 💻 PyTorch Implementation: Dice Loss
 
 ```python
 import torch

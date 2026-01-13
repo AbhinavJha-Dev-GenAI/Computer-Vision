@@ -1,8 +1,8 @@
-# 03. Object Detection ðŸŽ¯
+# 03. Object Detection 🎯
 
 Object detection is the task of identifying the **location** (Bounding Box) and **class** of objects within an image.
 
-## ðŸ“š Core Concepts
+## 📚 Core Concepts
 
 ### 1. Sliding Window vs Region Proposals
 - **Sliding Window**: Moving a fixed-size window over the image and classifying each crop (Slow).
@@ -19,14 +19,14 @@ Object detection is the task of identifying the **location** (Bounding Box) and 
 
 ---
 
-## ðŸ“‚ Detailed Guides
+## 📂 Detailed Guides
 
 1. [**YOLO Evolution**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/03-Object-Detection/YOLO-Evolution.md): From YOLOv1 to YOLOv11.
 2. [**Metrics**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/03-Object-Detection/Metrics.md): Understanding mAP, IoU, and NMS.
 
 ---
 
-## âŒ¨ï¸  Basic YOLOv8 Usage (Ultralytics)
+## ⌨️ Basic YOLOv8 Usage (Ultralytics)
 
 ```python
 from ultralytics import YOLO

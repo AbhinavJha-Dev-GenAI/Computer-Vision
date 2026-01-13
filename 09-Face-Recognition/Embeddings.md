@@ -1,4 +1,4 @@
-# Face Embeddings ðŸ§¬
+# Face Embeddings 🧬
 
 How do computers "compare" faces? They don't compare pixels directly. Instead, they convert faces into a high-dimensional vector of numbers called an **Embedding**.
 
@@ -21,7 +21,7 @@ Once you have the vectors, you compare them using:
 
 ---
 
-## ðŸ’» Python Logic: Comparing Embeddings
+## 💻 Python Logic: Comparing Embeddings
 
 ```python
 import numpy as np

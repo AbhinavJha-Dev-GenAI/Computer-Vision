@@ -1,4 +1,4 @@
-# 08. OCR (Optical Character Recognition) ðŸ„
+# 08. OCR (Optical Character Recognition) 🔍
 
 OCR is the technology used to convert different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data.
 
@@ -7,7 +7,7 @@ OCR is the technology used to convert different types of documents, such as scan
 ### 1. The OCR Pipeline
 Modern OCR is usually a two-step process:
 1. **Text Detection**: Finding the bounding boxes of text in an image (e.g., using CRAFT, DBNet, or YOLOv8).
-2. **Text Recognition**: Converting the pixels withinThose boxes into characters (e.g., using CRNN or Transformer-based models like TrOCR).
+2. **Text Recognition**: Converting the pixels within those boxes into characters (e.g., using CRNN or Transformer-based models like TrOCR).
 
 ### 2. Layout Analysis
 Understanding the structure of the document (e.g., separating columns, identifying tables, figures, and headers).
@@ -26,7 +26,7 @@ OCR accuracy highly depends on image quality. Common steps include:
 
 ---
 
-## âŒ¨ï¸  Basic EasyOCR Usage
+## ⌨️ Basic EasyOCR Usage
 
 ```python
 import easyocr

@@ -1,4 +1,4 @@
-# Sampling & Quantization ðŸ“±
+# Sampling & Quantization 📱
 
 Converting a continuous scene into a digital image involves two key processes: **Sampling** and **Quantization**.
 
@@ -17,7 +17,7 @@ Quantization is the process of digitizing the **amplitude (intensity)**.
 
 ---
 
-## ðŸ’» Visualizing Quantization Levels
+## 💻 Visualizing Quantization Levels
 
 ```python
 import cv2

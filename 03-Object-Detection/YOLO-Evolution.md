@@ -1,4 +1,4 @@
-# YOLO Evolution ðŸš€
+# YOLO Evolution 🚀
 
 The **YOLO (You Only Look Once)** family has redefined real-time object detection. Here is the journey from its inception to the latest state-of-the-art.
 

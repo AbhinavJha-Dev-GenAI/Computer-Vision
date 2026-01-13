@@ -1,8 +1,8 @@
-# 01. Image Fundamentals ðŸ–¼ï¸ 
+# 01. Image Fundamentals 🖼️
 
 This folder covers the building blocks of digital images. Understanding how machines store and manipulate visual data is the first step toward advanced Computer Vision.
 
-## ðŸ“š Core Concepts
+## 📚 Core Concepts
 
 ### 1. What is a Digital Image?
 A digital image is a numeric representation (typically 2D) of a visual scene. At the lowest level, it is a **grid of pixels**.
@@ -24,14 +24,14 @@ In OpenCV and most CV libraries:
 
 ---
 
-## ðŸ“‚ Detailed Guides
+## 📂 Detailed Guides
 
 1. [**Color Spaces**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/01-Image-Fundamentals/Color-Spaces.md): Deep dive into RGB, BGR, HSV, and LAB.
 2. [**Sampling & Quantization**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/01-Image-Fundamentals/Sampling-Quantization.md): Understanding how continuous light becomes digital data.
 
 ---
 
-## âŒ¨ï¸  Basic OpenCV Operations
+## ⌨️ Basic OpenCV Operations
 
 ```python
 import cv2

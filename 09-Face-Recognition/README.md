@@ -1,6 +1,6 @@
-# 09. Face Recognition ðŸ‘§
+# 09. Face Recognition 👤
 
-Face Recognition is the task of identifying or verifying a person's identity using their face. It in a series of steps including detection, alignment, and matching.
+Face Recognition is the task of identifying or verifying a person's identity using their face. It involves a series of steps including detection, alignment, and matching.
 
 ## ðŸ“š Core Concepts
 
@@ -23,7 +23,7 @@ Rotating and scaling the face so that the eyes are always at a fixed location. T
 
 ---
 
-## âŒ¨ï¸  Basic DeepFace Usage
+## ⌨️ Basic DeepFace Usage
 
 ```python
 from deepface import DeepFace

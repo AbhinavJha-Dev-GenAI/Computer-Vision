@@ -1,4 +1,4 @@
-# Feature Extraction ðŸŽ¯
+# Feature Extraction 🎯
 
 Feature extraction involves finding "interesting" points in an image that can be used for matching, tracking, or object recognition.
 
@@ -18,7 +18,7 @@ Feature extraction involves finding "interesting" points in an image that can be
 
 ---
 
-## ðŸ’» Practical Code: ORB Feature Matching
+## 💻 Practical Code: ORB Feature Matching
 
 ```python
 import cv2
