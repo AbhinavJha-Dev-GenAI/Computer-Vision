@@ -2,7 +2,7 @@
 
 Human Pose Estimation (HPE) is the task of identifying the location of specific keypoints (joints) like the nose, eyes, shoulders, elbows, and knees on a human body.
 
-## 📚 Core Concepts
+
 
 ### 1. Keypoints & Skeleton
 A human body is represented as a set of keypoints (usually 17-33) connected by "limbs" to form a skeleton.
@@ -22,12 +22,6 @@ A human body is represented as a set of keypoints (usually 17-33) connected by "
 - Sign language recognition.
 - Augmented Reality (AR) filters.
 - Gesture-based controls.
-
----
-
-## 📂 Detailed Guides
-
-1. [**MediaPipe**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/06-Pose-Estimation/MediaPipe.md): Google's framework for real-time cross-platform pose tracking.
 
 ---
 

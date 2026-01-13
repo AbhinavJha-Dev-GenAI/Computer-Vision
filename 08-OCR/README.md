@@ -2,7 +2,6 @@
 
 OCR is the technology used to convert different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data.
 
-## ðŸ“š Core Concepts
 
 ### 1. The OCR Pipeline
 Modern OCR is usually a two-step process:
@@ -19,10 +18,6 @@ OCR accuracy highly depends on image quality. Common steps include:
 - Denoising.
 
 ---
-
-## ðŸ“‚ Detailed Guides
-
-1. [**Tesseract & PaddleOCR**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/08-OCR/Tesseract-PaddleOCR.md): Comparing the classic engine with the modern SOTA.
 
 ---
 

@@ -2,7 +2,7 @@
 
 Object tracking is the process of estimating the trajectory of an object over time by maintaining a consistent ID for that object across consecutive frames of a video.
 
-## 📚 Core Concepts
+
 
 ### 1. Detection vs. Tracking
 - **Detection**: Analyzes one frame at a time to find objects.

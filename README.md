@@ -1,8 +1,5 @@
 ﻿# Computer-Vision 👁️
 
-**Target Level**: 2-3 Year ML/AI Engineer  
-**Priority**: ðŸ” **SPECIALIZED**
-
 ---
 
 ## 📚 What You'll Learn

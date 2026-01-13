@@ -2,7 +2,7 @@
 
 This folder covers the building blocks of digital images. Understanding how machines store and manipulate visual data is the first step toward advanced Computer Vision.
 
-## 📚 Core Concepts
+
 
 ### 1. What is a Digital Image?
 A digital image is a numeric representation (typically 2D) of a visual scene. At the lowest level, it is a **grid of pixels**.
@@ -21,13 +21,6 @@ In OpenCV and most CV libraries:
 - **Binary**: 1 bit per pixel (Black & White).
 - **Grayscale**: 8 bits per pixel (0-255 intensity levels).
 - **Color**: Multiple channels (typically 3 for RGB/BGR).
-
----
-
-## 📂 Detailed Guides
-
-1. [**Color Spaces**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/01-Image-Fundamentals/Color-Spaces.md): Deep dive into RGB, BGR, HSV, and LAB.
-2. [**Sampling & Quantization**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/01-Image-Fundamentals/Sampling-Quantization.md): Understanding how continuous light becomes digital data.
 
 ---
 

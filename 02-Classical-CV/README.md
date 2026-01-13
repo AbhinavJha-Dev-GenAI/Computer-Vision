@@ -2,7 +2,7 @@
 
 Classical Computer Vision refers to the set of techniques that don't rely on deep learning. These are essential for preprocessing, real-time edge applications, and understanding the foundations of Vision.
 
-## 📚 Core Concepts
+
 
 ### 1. Image Filtering
 Using kernels (small matrices) to perform operations like blurring, sharpening, or edge detection.
@@ -19,13 +19,6 @@ Non-linear operations related to the shape or morphology of features.
 
 ### 4. Contours
 Curves joining all the continuous points along a boundary which have the same color or intensity.
-
----
-
-## 📂 Detailed Guides
-
-1. [**Filters & Kernels**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/02-Classical-CV/Filters-Kernels.md): Gaussian, Median, Sobel, and Canny.
-2. [**Feature Extraction**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/02-Classical-CV/Feature-Extraction.md): SIFT, ORB, and HOG.
 
 ---
 

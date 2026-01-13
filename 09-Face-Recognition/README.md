@@ -2,7 +2,6 @@
 
 Face Recognition is the task of identifying or verifying a person's identity using their face. It involves a series of steps including detection, alignment, and matching.
 
-## ðŸ“š Core Concepts
 
 ### 1. Detection vs. Recognition
 - **Face Detection**: "Is there a face in this image?" (e.g., MTCNN, BlazeFace, YOLOv8-face).
@@ -14,12 +13,6 @@ Face Recognition is the task of identifying or verifying a person's identity usi
 
 ### 3. Face Alignment
 Rotating and scaling the face so that the eyes are always at a fixed location. This significantly improves recognition accuracy.
-
----
-
-## ðŸ“‚ Detailed Guides
-
-1. [**Embeddings**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/09-Face-Recognition/Embeddings.md): Vector similarities and Triplet Loss.
 
 ---
 

@@ -2,8 +2,6 @@
 
 Instance Segmentation is the task of identifying and delineating each distinct object (instance) in an image. It combines **Object Detection** (finding instances) and **Semantic Segmentation** (pixel-level mask for each instance).
 
-## ðŸ“š Core Concepts
-
 ### 1. Mask R-CNN
 The pioneering architecture for instance segmentation.
 - It extends **Faster R-CNN** by adding a branch for predicting segmentation masks on each Region of Interest (RoI).
@@ -14,14 +12,6 @@ Facebook (Meta) AI Research's next-generation library that implements state-of-t
 
 ### 3. Panoptic Segmentation
 Combines Semantic Segmentation (stuff like grass, sky) and Instance Segmentation (things like cars, people) into a single task.
-
----
-
-## ðŸ“‚ Detailed Guides
-
-1. [**Segment Anything Model (SAM)**](file:///d:/Vol-3%20ML%20AI/Computer-Vision/05-Instance-Segmentation/Segment-Anything-Model.md): The Foundation Model for Vision.
-
----
 
 ## ⌨️ Basic Detectron2 Usage
 
