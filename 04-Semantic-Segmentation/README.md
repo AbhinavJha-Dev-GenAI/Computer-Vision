@@ -1,46 +1,64 @@
-# 04. Semantic Segmentation 🧩
+# 04. Semantic Segmentation 🧱🎨
 
-Semantic Segmentation is the process of classifying every single pixel in an image into a category. Unlike Object Detection, it provides fine-grained boundaries but does not differentiate between multiple instances of the same object.
+Semantic segmentation is the task of classifying **every single pixel** in an image into a category. There is no distinction between individual instances of the same class (e.g., all "cars" are one color).
 
+## 1. Core Architectures 🏗️
 
+### FCN (Fully Convolutional Network)
+The pioneer that replaced dense layers with convolutions to produce spatial maps instead of single labels.
 
-### 1. FCN (Fully Convolutional Networks)
-Replacing the fully connected layers of a standard CNN with convolutions, allowing the output to be a spatial map (heatmap) rather than a single vector.
+### U-Net (The Star of Bio-Medical CV)
+- **Shape**: Looks like a "U" with an Encoder (downsampling) and a Decoder (upsampling).
+- **Skip Connections**: The key secret of U-Net. It passes fine-grained features from the encoder directly to the decoder, helping the model recover sharp boundaries.
 
-### 2. U-Net Architecture
-Encapsulates an **Encoder** (Contracting path) and a **Decoder** (Expanding path) with **Skip Connections**.
-- **Encoder**: Extracts features while reducing spatial dimensions.
-- **Decoder**: Up-samples the features back to the original image size.
-- **Skip Connections**: Pass fine-grained detail from the encoder directly to the decoder to preserve edge information.
-
-### 3. DeepLabV3+
-Uses **Atrous (Dilated) Convolutions** to capture multi-scale context without increasing the number of parameters.
+### DeepLab (Google)
+- **Atrous (Dilated) Convolutions**: Allows a wider field of view without increasing the number of parameters.
+- **ASPP (Atrous Spatial Pyramid Pooling)**: Captures multi-scale context by using different dilation rates.
 
 ---
 
-## ⌨️ Basic PyTorch Inference (DeepLabV3)
+## 2. Metrics for Success 📊
+
+*   **IoU (Jaccard Index)**: The standard. It measures the overlap between the predicted mask and the ground truth.
+*   **Dice Coefficient**: Similar to IoU but gives double weight to the overlap. Commonly used in medical imaging.
+*   **Pixel Accuracy**: Often misleading if classes are imbalanced (e.g., the background is 90% of the image).
+
+---
+
+## 3. The Modern SOTA: SAM (Segment Anything) 🪄
+
+Meta's **Segment Anything Model (SAM)** has revolutionized segmentation. It is a "Foundation Model" for vision:
+- **Zero-shot**: Can segment objects it has never seen before.
+- **Promptable**: You can click an object, draw a box, or even use text to segment anything.
+
+---
+
+## 🛠️ Essential Snippet (Inference with SAM)
 
 ```python
-import torch
-from torchvision import models, transforms
-from PIL import Image
+from segment_anything import SamPredictor, sam_model_registry
 
-# Load model
-model = models.segmentation.deeplabv3_resnet101(pretrained=True).eval()
+# 1. Load SAM model
+sam = sam_model_registry["vit_h"](checkpoint="sam_vit_h.pth")
+predictor = SamPredictor(sam)
 
-# Preprocess image
-input_image = Image.open('street.jpg')
-preprocess = transforms.Compose([
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-])
-input_tensor = preprocess(input_image).unsqueeze(0)
+# 2. Set the image
+predictor.set_image(image_bgr)
 
-# Inference
-with torch.no_grad():
-    output = model(input_tensor)['out'][0]
-output_predictions = output.argmax(0)
+# 3. Predict mask based on a single point (click)
+input_point = np.array([[500, 375]])
+input_label = np.array([1])
+
+masks, scores, logits = predictor.predict(
+    point_coords=input_point,
+    point_labels=input_label,
+    multimask_output=True,
+)
 ```
 
-> [!TIP]
-> **U-Net** is the industry standard for Medical Imaging and Satellite imagery segmentation due to its accuracy with limited data.
+---
+
+## 🌍 Applications
+- **Medical**: Segmenting tumors or organs in CT scans.
+- **Autonomous Driving**: Distinguishing road vs. sidewalk vs. sky.
+- **Satellite Imaging**: Calculating forest coverage or urban growth.
